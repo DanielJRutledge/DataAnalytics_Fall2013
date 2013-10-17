@@ -23,3 +23,4 @@ to master as you develop within the branch.
 Notes:
 ======
 
+• Here's a bullet point.
