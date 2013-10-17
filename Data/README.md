@@ -3,6 +3,4 @@ I would recommend maintaining clear documentation practices and including csv ve
 be much easier to manage.
 
 
-\begin{equation}
-  2+2 = 5
-\end{equation}
+<p>tags you're it. </p>
