@@ -2,10 +2,15 @@ All phases of project Data should be stored somewhere in this tree. We can decid
 I would recommend maintaining clear documentation practices and including csv versions of all relevant data files. It'll
 be much easier to manage.
 
-<h2> Here's some handy tags </h2>
+<h2><small> Here's some handy tags </small> </h2>
 <p> <b>Tags, you're it.</b> </p>
 
-<ul> Don't list me without order. </ul>
+<ul> 
+<li>Don't list me without order. </li>
+</ul>
 
-<ol> Ok that's better </ol>
+<ol>
+<li> Ok that's better. </li>
+</ol>
+
 
