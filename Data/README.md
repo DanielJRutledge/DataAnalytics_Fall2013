@@ -16,6 +16,6 @@ Here's some handy tags:
 
 `# this is a strange way to make code/special text blocks`
 
-<code>[i for i in range(emotion) if emotion == happy] #This will result in empty list </code>
+<code>[i for i in range(emotion) if emotion == happy] #This will result in empty list if programming in emode (emo code)</code>
 
 
