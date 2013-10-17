@@ -15,7 +15,8 @@ http://stackoverflow.com/questions/11019839/how-to-use-github-using-terminal-com
 
 
 If you want to have a separate version of this project that won't affect the master branch when you commit, make your own 
-branch to commit to and then commit to master when you want. 
+branch to commit to and then commit to master when you want. We should be able to view the different branches and compare it
+to master as you develop within the branch. 
 
 
 
