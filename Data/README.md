@@ -15,5 +15,5 @@ Here's some handy tags:
 
 
 `# this is a strange way to make code/special text blocks`
-<code>[print(i) for i in range(emotion) if emotion == happy] #This will result in EmotionNotFound exception</code>
+<code>[i for i in range(emotion) if emotion == happy] #This will result in empty list/code>
 
