@@ -15,7 +15,4 @@ Here's some handy tags:
 
 
 `# this is a strange way to make code blocks`
-<code>for i in range(emotion):
-  print happy
-  
-  ERROR EmotionNotFoundException!!!</code>
+
