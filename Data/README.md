@@ -14,4 +14,5 @@ Here's some handy tags:
 </ol>
 
 
-`This is strange`
+`# this is a strange way to make code blocks`
+
