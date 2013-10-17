@@ -26,5 +26,5 @@ Notes:
 • Here's a lazy bullet point.
 
 <ul>
-<li> Less lazy. <\li>
-<\ul>
+<li> Less lazy. </li>
+</ul>
