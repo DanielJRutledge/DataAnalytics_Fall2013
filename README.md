@@ -23,4 +23,8 @@ to master as you develop within the branch.
 Notes:
 ======
 
-• Here's a bullet point.
+• Here's a lazy bullet point.
+
+<ul>
+<li> Less lazy. <\li>
+<\ul>
