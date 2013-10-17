@@ -14,9 +14,8 @@ https://help.github.com/articles/using-pull-requests
 http://stackoverflow.com/questions/11019839/how-to-use-github-using-terminal-commands
 
 
-
-
-
+If you want to have a separate version of this project that won't affect the master branch when you commit, make your own 
+branch to commit to and then commit to master when you want. 
 
 
 
