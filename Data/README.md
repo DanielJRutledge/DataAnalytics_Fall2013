@@ -2,6 +2,6 @@ All phases of project Data should be stored somewhere in this tree. We can decid
 I would recommend maintaining clear documentation practices and including csv versions of all relevant data files. It'll
 be much easier to manage.
 
-<ls>
-<p> Tags you're it. </p>
-</ls>
+
+<p> <b>Tags, you're it.</b> </p>
+
