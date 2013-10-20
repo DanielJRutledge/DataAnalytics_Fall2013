@@ -7,7 +7,11 @@ def convert(file):
 	out = []
 	for line in splitBycomma:
 		if reduce(lambda s, t : s+t,line) != "":
-			out.append(line)
+			if line[0][0].isalpha():
+				out.append(line)
+			else:
+				line[0] = line[0][1:]
+				out.append(line)
 	return out
 
 """
