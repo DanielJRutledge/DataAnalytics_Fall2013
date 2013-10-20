@@ -24,6 +24,7 @@ def main():
 		string = convertListToCsv.convert(header,data)
 		outfile = open("dataMinusFirst.csv","w")
 		outfile.write(string)
+		print "Output written to dataMinusFirst.csv"
 
 main()
 
