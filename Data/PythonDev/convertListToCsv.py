@@ -7,11 +7,11 @@ def convert(header, data):
 
 	outStr += header[-1]+ '\n'
 	for line in data:
-		for item in line:
-			if item != line[-1]:
-				outStr+= item +","
+		for item in range(len(line)):
+			if item < len(line)-1:
+				outStr+= line[item] +","
 			else:
-				outStr += item +'\n'
+				outStr += line[item] +'\n'
 	outStr.strip('\n')
 	return outStr
 

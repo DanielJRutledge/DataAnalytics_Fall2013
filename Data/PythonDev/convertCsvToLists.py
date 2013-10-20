@@ -8,6 +8,7 @@ def convert(file):
 	#takes in the file and splits each line by a comma, now it's a list of lists, each sublist is a line with each 
 	#element corresponding to each entry. 2D list.
 	#Use this list to manipulate data in most settings
+	#print infile
 	splitBycomma = [line.strip('\r').split(",") for line in infile]
 	out = []
 	for line in splitBycomma:
