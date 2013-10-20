@@ -11,7 +11,7 @@ def setOfLabelsInAllHeaders(headers):
 	return set(headersInAllFiles)
 
 
-
+#take in a list, see if all elements are equal or not.
 def areEqualBool(l):
 	f = l[0]
 	for n in l:
