@@ -1,6 +1,6 @@
 import os,sys
 import convertListToCsv
-
+#Program not finished!
 
 #takes in list of lists, find which items are in every sub list and returns list of those elements
 def setOfLabelsInAllHeaders(headers):
@@ -24,10 +24,10 @@ def areEqualBool(l):
 def fitData(headers,dataFiles,nullValue):
 
 	for label in headers:
-		for f in dataFiles:
-			idxHeader = f[0].index(label)
-			print f[0],idxHeader
-
+	for f in dataFiles:
+		idxHeader = f[0].index(label)
+		print f[0],idxHeader
+####find elements in header that are in dataFiles and keep those values, fill in null values where needed. 
 
 
 def main():
