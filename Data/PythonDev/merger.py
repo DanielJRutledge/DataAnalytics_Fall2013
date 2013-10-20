@@ -20,9 +20,9 @@ def main():
 	for n in areEqual:
 		if n != f:
 			print "WARNING HEADERS ARE NOT EQUAL LENGTH!!!"
-
-	print headers
-	print areEqual
+		
+	#print headers
+	#print areEqual
 	cleanFiles = [d[1:] for d in openfiles]
 	outf =""
 	for datafile in cleanFiles:
