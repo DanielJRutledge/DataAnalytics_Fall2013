@@ -2,20 +2,16 @@ All phases of project Data should be stored somewhere in this tree. We can decid
 I would recommend maintaining clear documentation practices and including csv versions of all relevant data files. It'll
 be much easier to manage.
 
-Here's some handy tags:
-<p> <b>Tags, you're it.</b> </p>
 
-<ul> 
-<li>Don't list me without order. </li>
-</ul>
+File "BigData.csv" has the following:
 
-<ol>
-<li> Ok that's better. </li>
-</ol>
+All of Lachab's files from the Test directory, merged and sorted by name. Position and Values corresponding to their positions
+have been added to the data files. 
 
 
-`# this is a strange way to make code/special text blocks`
 
-<code>[i for i in range(emotion) if emotion == happy] #This will result in empty list if programming in emode (emo code)</code>
+
+
+
 
 
