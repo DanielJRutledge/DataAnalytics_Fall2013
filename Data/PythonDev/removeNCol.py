@@ -4,11 +4,13 @@ import convertCsvToLists
 import os,sys
 
 
+#Removes any zero indexed nth column from datafile. Removed column is in removedData variable but not written. 
+
 def main():
 	#python removeN.py file --removeCol n
 
-	
-	#currently only removes the first element in the data file. Will remove and element in the future. 
+
+
 	console = sys.argv[1:]
 	csvFile = console[0]
 	# file --removeCol n
@@ -28,7 +30,7 @@ def main():
 		outfile.write(string)
 		print "Output written to dataMinusFirst.csv"
 	else:
-		[line.pop(n) for line in data]
+		removedData = [line.pop(n) for line in data]
 		header = data[0]
 		data = data[1:]
 		string = convertListToCsv.convert(header,data)
