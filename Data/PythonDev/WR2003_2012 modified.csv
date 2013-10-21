@@ -1,4 +1,4 @@
-Name,Team,G,Receiving,Rec,Yds,Y/G,Avg,Lng,TD,RUSHING,Rush,Yds,Y/G,Avg,TD,Year,Position
+name,team,g,receiving,rec,yds,y/g,avg,lng,td,rushing,rush,yds,y/g,avg,td,year,Position
 Larry Fitzgerald,Pitt,13,,92,1672,128.6,18.2,58,22,,1,7,0.5,7,0,2003,WR
 Geoff McArthur,Cal,13,,85,1504,115.7,17.7,79,10,,0,0,0,N/A,0,2003,WR
 Martin Nance,Mia O,14,,90,1498,107,16.6,61,11,,0,0,0,N/A,0,2003,WR

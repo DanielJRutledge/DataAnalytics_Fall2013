@@ -1,4 +1,4 @@
-Name,Team,G,PASSING,QBRAT,Att,Comp,Pct,Yds,Y/G,Y/A,TD,Int,RUSHING,Rush,Yds,Y/G,Avg,TD,SACKED,Sack,YdsL,Year,Position
+name,team,g,passing,qbrat,att,comp,pct,yds,y/g,y/a,td,int,rushing,rush,yds,y/g,avg,td,sacked,sack,ydsl,year,Position
 Adam Ernst,Minn,1,,514,1,1,100,10,10,10,1,0,,0,0,0,N/A,0,,0,0,2004,QB
 Jeff Ballard,TCU,1,,505.6,1,1,100,9,9,9,1,0,,1,-1,-1,-1,0,,0,0,2004,QB
 Brandon Satcher,Haw,1,,293.2,1,1,100,23,23,23,0,0,,6,34,34,5.7,0,,0,0,2004,QB

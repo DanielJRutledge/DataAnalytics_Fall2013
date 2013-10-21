@@ -3,7 +3,7 @@ def convert(header, data):
 
 	outStr = ""
 	for i in header[:-1]:
-		outStr += i + ","
+		outStr += i.lower() + ","
 
 	outStr += header[-1]+ '\n'
 	for line in data:
