@@ -15,7 +15,7 @@ def main():
 	csvFile = console[0]
 	# file --removeCol n
 	n = 0
-	if console[1] == "--removeCol":
+	if len(console) > 1 and console[1] == "--removeCol":
 		n = int(console[2])
 	#0 indexed 
 

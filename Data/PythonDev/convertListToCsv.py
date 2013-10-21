@@ -3,6 +3,7 @@ def convert(header, data):
 
 	outStr = ""
 	for i in header[:-1]:
+		#lower case header items to make merging easier -> stupid way to handle this problem. 
 		outStr += i.lower() + ","
 
 	outStr += header[-1]+ '\n'

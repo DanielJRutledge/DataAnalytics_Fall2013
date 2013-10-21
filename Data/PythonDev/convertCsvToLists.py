@@ -14,12 +14,13 @@ def convert(file):
 	for line in splitBycomma:
 		#removing all data entries that are empty
 		if reduce(lambda s, t : s+t,line) != "":
-			if line[0][0].isalpha():
+			out.append(line)
+			'''if line[0][0].isalpha():
 				out.append(line)
 			else:
-				#taking care of weird non alphabetic character at start of file.
+				#taking care of weird non alphabetic character at start of file. Uncomment to use.
 				line[0] = line[0][1:]
-				out.append(line)
+				out.append(line)'''
 	return out
 
 """
