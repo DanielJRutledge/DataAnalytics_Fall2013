@@ -95,12 +95,34 @@
 # x[c(1,3)] will return the first and third elements of the list in a list
 
 # to filter out NA values
-#the vector
-#x <- c(1,2,NA,4,NA,5)
+# the vector
+# x <- c(1,2,NA,4,NA,5)
 # vector of booleans corresponding to vector above
-#bad <- is.na(x)
-#select the complement of bad from x
+# bad <- is.na(x)
+# select the complement of bad from x
 # x[!bad]
+# if multiple vectors
+# good <- complete.cases(x,y)  returns the positions of both with non missing
+# via a boolean vector
+# x[good] returns the good values
+# y[good]returns good values
+
+# in a data frame, 
+# return all rows where there are no missing values:
+# good <- complete.cases(dataframe)
+# dataframe[good,][colums,] where columns is a vector
+
+# element wise arithmetic is same as regular arithmetic x+y will do element wise
+# true matrix multiplication is x%*%y
+
+
+# To estimate how much memory in RAM you'll need
+# numRows * numCols * numBytes = bignum bytes
+# bignum/2^(20) = num MB
+# num/2^(10) = num2 GB
+
+# need at least twice as much RAM as size of data file.
+# if all data is numeric = 8 bytes
 
 
  

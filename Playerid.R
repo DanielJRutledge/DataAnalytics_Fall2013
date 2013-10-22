@@ -1,4 +1,4 @@
-setwd("/home/dan/329/Data")
+#setwd("/home/dan/329/Data")
 attach(mtcars)
 df = read.csv("BigData.csv")
 index <- with(df, order(Name, Team, Year))
