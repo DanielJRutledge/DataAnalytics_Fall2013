@@ -19,14 +19,14 @@ branch to commit to and then commit to master when you want. We should be able t
 to master as you develop within the branch. 
 
 
-<b>Quick & Dirty gitHub tutorial </b>
+<b>Quick & Dirty gitHub Tutorial </b>
 
 
 If you have your own branch that you're developing in and you want to make sure you are developing in that branch:
 
 `git checkout yourBranch` 
 
-Where yourBranch is the name of your branch. This assumes you are in "DataAnalytics_Fall2013 directory on terminal or command prompt on your computer
+Where yourBranch is the name of your branch. This assumes you are in "DataAnalytics_Fall2013" directory on terminal or command prompt on your computer
 This is how you switch between branches in general, "master" is the name of the root branch
 
 Once you use the above command everything you do, once committed will update on your branch only
@@ -36,12 +36,12 @@ If you are ready to update your branch:
 
 `git commit -a`  
 
-This will send you to a text editor to write a label, once everything goes ok
+This will send you to a text editor to write a label and details of your update, once everything goes ok
 
 `git push origin` 
 
 This assumes that you are "pushing" your updates to the branch you're currently in
-so if you want to push to master, see below for details
+so if you want to push to master,
 
 `git push origin master`
 
@@ -70,7 +70,6 @@ To update master,
 `git push origin`
 
  
-
 
 
 
