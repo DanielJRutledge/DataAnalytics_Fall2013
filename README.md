@@ -48,17 +48,17 @@ so if you want to push to master,
 
 If you realize that master has changed a lot and you want your branch to update:
 
-`git checkout master`
-`git pull`
-`git checkout yourBranch`
-`git merge master`
+`git checkout master`\n
+`git pull`\n
+`git checkout yourBranch`\n
+`git merge master`\n
 
 
 If you now want to update master with everything in your branch:
 
-`git checkout master`
-`git merge yourBranch`
-`git push origin master`
+`git checkout master`\n
+`git merge yourBranch`\n
+`git push origin master`\n
 
 If you're not using a branch just make sure you are using 'git pull' to update your version on your computer
 when you are read to commit to master then it's just 
