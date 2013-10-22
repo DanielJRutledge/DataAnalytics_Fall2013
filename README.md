@@ -19,12 +19,62 @@ branch to commit to and then commit to master when you want. We should be able t
 to master as you develop within the branch. 
 
 
+<b>Quick & Dirty gitHub tutorial </b>
 
-Notes:
-======
 
-• Here's a lazy bullet point.
+#If you have your own branch that you're developing in and you want to make sure you are developing in that branch:
 
-<ul>
-<li> Less lazy. </li>
-</ul>
+git checkout yourBranch 
+
+# where yourBranch is the name of your branch. This assumes you are in "DataAnalytics_Fall2013 directory on terminal or command prompt on your computer
+# This is how you switch between branches in general, "master" is the name of the root branch
+
+#Once you use the above command everything you do, once committed will update on your branch only
+
+
+#If you are ready to update your branch:
+
+git push origin 
+
+# this assumes that you are "pushing" your updates to the branch you're currently in
+# so if you want to push to master, see below for details
+
+git push origin master
+.
+.
+.t
+.i
+.m
+.e
+.
+.
+
+# You realize that master has changed a lot and you want your branch to update:
+
+git checkout master
+git pull
+git checkout yourBranch
+git merge master
+
+
+#You now want to update master with everything in your branch:
+
+git checkout master
+git merge yourBranch
+git push origin master
+
+# If you're not using a branch just make sure you are using 'git pull' to update your version on your computer
+# when you are read to commit to master then it's just 
+
+git push origin
+
+ 
+
+
+
+
+
+Project Notes:
+=============
+
+• 
