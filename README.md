@@ -66,7 +66,7 @@ If you now want to update master with everything in your branch:
 `git push origin master`
 
 If you're not using a branch just make sure you are using 'git pull' to update your version on your computer
-when you are read to commit to master then it's just 
+when you are ready to commit to master then it's just 
 
 `git commit -a `
 Remember this command will send you to a default text editor, you can change what this editor is but it depends on your system.
