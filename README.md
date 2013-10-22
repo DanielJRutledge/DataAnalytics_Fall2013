@@ -34,6 +34,7 @@ git checkout yourBranch
 
 #If you are ready to update your branch:
 
+git commit -a  #this will send you to a text editor to write a label, once everything goes ok
 git push origin 
 
 # this assumes that you are "pushing" your updates to the branch you're currently in
@@ -65,7 +66,7 @@ git push origin master
 
 # If you're not using a branch just make sure you are using 'git pull' to update your version on your computer
 # when you are read to commit to master then it's just 
-
+git commit -a # write stuff
 git push origin
 
  
