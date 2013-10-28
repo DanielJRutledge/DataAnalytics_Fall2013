@@ -2,7 +2,7 @@
 Phase2Final_updated <- read.csv("C:/Users/phani/Desktop/Phase2Final_updated.csv")
 View(Phase2Final_updated)
 #
-#
+# This is a change - Sergio (test)
 #Splitting original phase 2 final by position (QB,WR,RB) into 3 more data frames
 QBdata <- subset(Phase2Final_updated, Position == "QB")
 RBdata <- subset(Phase2Final_updated, Position == "RB")
