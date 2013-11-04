@@ -69,12 +69,15 @@ BigAdjAgr <- subset(tmp6,select=c("Code","Name","G","Rush","RushYds","RushYPG","
 write.csv(BigAdjAgr,"BigAdjAgr.csv",row.names=F)  #write csv of big file of adjusted aggregate data
 #
 #recreate individual position regression testing files
-RBAdjAgrtrain <- subset(BigAdjAgr,PlayerID %in% RBtrainIDs)
-RBAdjAgrtest <- subset(BigAdjAgr,PlayerID %in% RBtestIDs)
-RBAdjAgrvalid <- subset(BigAdjAgr,PlayerID %in% RBvalidIDs)
-QBAdjAgrtrain <- subset(BigAdjAgr,PlayerID %in% QBtrainIDs)
-QBAdjAgrtest <- subset(BigAdjAgr,PlayerID %in% QBtestIDs)
-QBAdjAgrvalid <- subset(BigAdjAgr,PlayerID %in% QBvalidIDs)
-WRAdjAgrtrain <- subset(BigAdjAgr,PlayerID %in% WRtrainIDs)
-WRAdjAgrtest <- subset(BigAdjAgr,PlayerID %in% WRtestIDs)
-WRAdjAgrvalid <- subset(BigAdjAgr,PlayerID %in% WRvalidIDs)
+RBAdjAgrtrain <- data.frame(subset(BigAdjAgr,PlayerID %in% RBtrainIDs),row.names=NULL)
+RBAdjAgrtest <- data.frame(subset(BigAdjAgr,PlayerID %in% RBtestIDs),row.names=NULL)
+RBAdjAgrvalid <- data.frame(subset(BigAdjAgr,PlayerID %in% RBvalidIDs),row.names=NULL)
+QBAdjAgrtrain <- data.frame(subset(BigAdjAgr,PlayerID %in% QBtrainIDs),row.names=NULL)
+QBAdjAgrtest <- data.frame(subset(BigAdjAgr,PlayerID %in% QBtestIDs),row.names=NULL)
+QBAdjAgrvalid <- data.frame(subset(BigAdjAgr,PlayerID %in% QBvalidIDs),row.names=NULL)
+WRAdjAgrtrain <- data.frame(subset(BigAdjAgr,PlayerID %in% WRtrainIDs),row.names=NULL)
+WRAdjAgrtest <- data.frame(subset(BigAdjAgr,PlayerID %in% WRtestIDs),row.names=NULL)
+WRAdjAgrvalid <- data.frame(subset(BigAdjAgr,PlayerID %in% WRvalidIDs),row.names=NULL)
+#
+#write the new data sets to file
+
