@@ -1,0 +1,12 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# Explicit paths specified without -i nor -o; assuming --only paths...
+# On branch master
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#	new file:   NCAAagr.R
+#
+-m "This takes the BigFinal.csv and creates aggregated sub-data sets with strength of schedule adjusted data"
+
